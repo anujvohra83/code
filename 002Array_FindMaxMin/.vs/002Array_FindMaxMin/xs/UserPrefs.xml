@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{00054946-D76B-4A58-8ADD-398C169EEFAA}|Default">
+  <MonoDevelop.Ide.ItemProperties.002Array__FindMaxMin PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="002Array_FindMaxMin/Program.cs">
+    <Files>
+      <File FileName="002Array_FindMaxMin/Program.cs" Line="1" Column="14" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="002Array_FindMaxMin" expanded="True">
+            <Node name="002Array_FindMaxMin" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
