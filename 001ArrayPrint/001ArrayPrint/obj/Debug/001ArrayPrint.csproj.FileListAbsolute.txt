@@ -1,6 +1,0 @@
-/Users/anujvohra/Code/001ArrayPrint/001ArrayPrint/bin/Debug/001ArrayPrint.exe
-/Users/anujvohra/Code/001ArrayPrint/001ArrayPrint/bin/Debug/001ArrayPrint.pdb
-/Users/anujvohra/Code/001ArrayPrint/001ArrayPrint/obj/Debug/001ArrayPrint.csprojAssemblyReference.cache
-/Users/anujvohra/Code/001ArrayPrint/001ArrayPrint/obj/Debug/001ArrayPrint.csproj.CoreCompileInputs.cache
-/Users/anujvohra/Code/001ArrayPrint/001ArrayPrint/obj/Debug/001ArrayPrint.exe
-/Users/anujvohra/Code/001ArrayPrint/001ArrayPrint/obj/Debug/001ArrayPrint.pdb
