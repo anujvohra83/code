@@ -1,23 +1,18 @@
-﻿<Properties StartupConfiguration="{14B0FA42-39CB-4457-8FF3-F3945BB58051}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="001ArrayPrint/Program.cs">
-    <Files>
-      <File FileName="001ArrayPrint/Program.cs" Line="55" Column="1" />
-    </Files>
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="001ArrayPrint" expanded="True">
-            <Node name="001ArrayPrint" expanded="True">
-              <Node name="Program.cs" selected="True" />
-            </Node>
-          </Node>
+          <Node name="001ArrayPrint" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>001ArrayPrint/001ArrayPrint.csproj</String>
+  </DisabledProjects>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
-  <MonoDevelop.Ide.ItemProperties.001ArrayPrint FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
