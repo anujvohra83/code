@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.808.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005ArrayMoveNegativesToLeft", "005ArrayMoveNegativesToLeft\005ArrayMoveNegativesToLeft.csproj", "{C6C36E53-F63E-4CA7-9D52-2F6156E13488}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6C36E53-F63E-4CA7-9D52-2F6156E13488}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{C6C36E53-F63E-4CA7-9D52-2F6156E13488}.Debug|anycpu.Build.0 = Debug|anycpu
+		{C6C36E53-F63E-4CA7-9D52-2F6156E13488}.Release|anycpu.ActiveCfg = Release|anycpu
+		{C6C36E53-F63E-4CA7-9D52-2F6156E13488}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F735F685-63E1-4ACC-81CC-1671C2339825}
+	EndGlobalSection
+EndGlobal
