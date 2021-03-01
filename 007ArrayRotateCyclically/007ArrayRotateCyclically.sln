@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.808.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "007ArrayRotateCyclically", "007ArrayRotateCyclically\007ArrayRotateCyclically.csproj", "{79E73E76-69B9-4BED-8D1F-594660F2010D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79E73E76-69B9-4BED-8D1F-594660F2010D}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{79E73E76-69B9-4BED-8D1F-594660F2010D}.Debug|anycpu.Build.0 = Debug|anycpu
+		{79E73E76-69B9-4BED-8D1F-594660F2010D}.Release|anycpu.ActiveCfg = Release|anycpu
+		{79E73E76-69B9-4BED-8D1F-594660F2010D}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {119CE470-4B04-422E-94AD-A655E2BBCEFF}
+	EndGlobalSection
+EndGlobal
