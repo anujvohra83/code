@@ -11,14 +11,14 @@ namespace ArrayUnionIntersection
             int[] array02 = { 3, 11, 4, 5, 6, 7 };
 
             Console.Write("Array01: ");
-            for (int i = 0; i < array01.Length-1; i++)
+            for (int i = 0; i <= array01.Length-1; i++)
             {
                 Console.Write(array01[i] + " ");
             }
 
             Console.WriteLine(Environment.NewLine);
             Console.Write("Array02: ");
-            for (int i = 0; i < array02.Length - 1; i++)
+            for (int i = 0; i <= array02.Length - 1; i++)
             {
                 Console.Write(array02[i] + " ");
             }
