@@ -87,7 +87,7 @@ namespace ArrayUnionIntersection
 
             HashSet<int> unionSet = new HashSet<int>();
 
-            for (int i = 0; i < m-1; i++)
+            for (int i = 0; i <= m-1; i++)
             {
                 if (!unionSet.Contains(array01[i]))
                 {
@@ -95,7 +95,7 @@ namespace ArrayUnionIntersection
                 }
             }
 
-            for (int j = 0; j < n-1; j++)
+            for (int j = 0; j <= n-1; j++)
             {
                 if (!unionSet.Contains(array02[j]))
                 {
