@@ -21,7 +21,7 @@ namespace ArrayRotateCyclically
             array01[0] = last;
 
             Console.WriteLine(Environment.NewLine);
-            Console.Write("Cyclically Rotated Array: ");
+            Console.Write("Cyclically Rotated Array by one: ");
             foreach (var item in array01)
             {
                 Console.Write(item + " ");

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.808.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "008ArrayRorateByK", "008ArrayRorateByK\008ArrayRorateByK.csproj", "{03294204-727C-470C-92FF-12F5F7AEF083}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03294204-727C-470C-92FF-12F5F7AEF083}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{03294204-727C-470C-92FF-12F5F7AEF083}.Debug|anycpu.Build.0 = Debug|anycpu
+		{03294204-727C-470C-92FF-12F5F7AEF083}.Release|anycpu.ActiveCfg = Release|anycpu
+		{03294204-727C-470C-92FF-12F5F7AEF083}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6DA65B5C-3828-4F5A-A18C-CB6EC03C77E5}
+	EndGlobalSection
+EndGlobal
