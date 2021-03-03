@@ -7,8 +7,9 @@ namespace ArrayMaxContigousSum
     {
         public static void Main(string[] args)
         {
-            int[] array01 = { 1, 2, -3, -2, 5 };
+            int[] array01 = { 1 ,2, 3, -2, 5 };
             int maxsum = Kadane(array01);
+
             Console.Write($"Maximum Contigous Sum of subarray is : {maxsum}");
 
         }
@@ -23,11 +24,16 @@ namespace ArrayMaxContigousSum
                 // keep adding the sum of previous and current element
                 newsum = newsum + array01[i];
 
-                //if the sum is negative, then set it to zero
-                newsum = Math.Max(newsum, 0);
+                //Take a maximum of current element and sum of (previous sum
+                //+ current element)
+                newsum = Math.Max( array01[i], newsum);
 
                 // take the maximum of sub array sum and previous maximum sum
-                maxSum = Math.Max(maxSum, newsum);
+                if (newsum > maxSum)
+                {
+                    maxSum = newsum;
+                }
+                    
             }
             return maxSum;
         }
