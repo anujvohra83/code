@@ -9,6 +9,7 @@ namespace ArrayMaxContigousSum
         {
             int[] array01 = { 1 ,2, 3, -2, 5 };
             int maxsum = Kadane(array01);
+
             Console.Write($"Maximum Contigous Sum of subarray is : {maxsum}");
 
         }
