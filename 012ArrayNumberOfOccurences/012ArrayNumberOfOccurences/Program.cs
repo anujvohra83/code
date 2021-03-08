@@ -20,25 +20,33 @@ namespace ArrayNumberOfOccurences
 
             int index= BinarySearch(array01, k);
 
-            //Get the left count
-            int left = index - 1;
-            int leftCount = 0;
-            while (left > -1 && array01[left] == k)
+            int totalOccurences = 0;
+
+            //If atleast one element found
+            if (index != -1)
             {
-                leftCount++;
-                left--;
+                //Get the left count
+                int left = index - 1;
+                int leftCount = 0;
+                while (left > -1 && array01[left] == k)
+                {
+                    leftCount++;
+                    left--;
+                }
+
+                //Get the right count
+                int right = index + 1;
+                int rightCount = 0;
+                while (right < array01.Length && array01[right] == k)
+                {
+                    rightCount++;
+                    right++;
+                }
+
+
+                totalOccurences = leftCount + 1 + rightCount;
             }
 
-            //Get the right count
-            int right = index + 1;
-            int rightCount = 0;
-            while (right < array01.Length && array01[right] == k)
-            {
-                rightCount++;
-                right++;
-            }
-
-            int totalOccurences = leftCount + 1 + rightCount;
             Console.Write($"Total number of occurences for : {k} in the " +
                 $"array is {totalOccurences}" );
             Console.Read();
