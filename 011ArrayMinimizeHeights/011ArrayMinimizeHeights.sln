@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.808.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "011ArrayMinimizeHeights", "011ArrayMinimizeHeights\011ArrayMinimizeHeights.csproj", "{B1A67F90-6719-49A8-B9C8-7E3C2BA64382}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1A67F90-6719-49A8-B9C8-7E3C2BA64382}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{B1A67F90-6719-49A8-B9C8-7E3C2BA64382}.Debug|anycpu.Build.0 = Debug|anycpu
+		{B1A67F90-6719-49A8-B9C8-7E3C2BA64382}.Release|anycpu.ActiveCfg = Release|anycpu
+		{B1A67F90-6719-49A8-B9C8-7E3C2BA64382}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08E3D73A-D4A2-4E15-B8F6-F61AEDA7D9E6}
+	EndGlobalSection
+EndGlobal

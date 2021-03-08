@@ -1,4 +1,5 @@
 ﻿using System;
+
 /*
 Given an array arr[] denoting heights of N towers and a positive integer K,
 you have to modify the height of each tower either by increasing or decreasing
@@ -14,7 +15,9 @@ namespace ArrayMinimizeHeights
         {
             int[] arr = { 8, 1, 5, 4, 7, 5, 7, 9, 4, 6 };
             int n = arr.Length;
-            int k = 5;
+
+            int k = 5;// 3;// 5; //2;
+
             int min = getMinDiff(arr, n, k);
             Console.WriteLine($"Minimum Heights : {min}");
             Console.ReadLine();
