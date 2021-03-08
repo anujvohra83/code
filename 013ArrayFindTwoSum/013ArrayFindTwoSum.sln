@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.808.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "013ArrayFindTwoSum", "013ArrayFindTwoSum\013ArrayFindTwoSum.csproj", "{E2C73A79-204C-4D1B-8AE0-CB0F8AC0092E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2C73A79-204C-4D1B-8AE0-CB0F8AC0092E}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{E2C73A79-204C-4D1B-8AE0-CB0F8AC0092E}.Debug|anycpu.Build.0 = Debug|anycpu
+		{E2C73A79-204C-4D1B-8AE0-CB0F8AC0092E}.Release|anycpu.ActiveCfg = Release|anycpu
+		{E2C73A79-204C-4D1B-8AE0-CB0F8AC0092E}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FAC2F53B-CC99-401E-B330-2D69201E8E38}
+	EndGlobalSection
+EndGlobal
