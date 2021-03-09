@@ -7,7 +7,7 @@ namespace ArrayMedian
         public static void Main(string[] args)
         {
             int[] array01 = { 2,100 };
-            int[] array02 = { 4, 8, 12, 16, 20, 28 };
+            int[] array02 = { 4, 8, 11, 12, 20, 28 };
             int n1 = array01.Length;
             int n2 = array02.Length;
 
@@ -17,8 +17,7 @@ namespace ArrayMedian
             Console.Write("Array02: ");
             Print(array02);
 
-            decimal median = 0.0m;
-            median= Median(array01, array02, n1, n2);
+            double median = Median(array01, array02, n1, n2);
 
             Console.WriteLine(Environment.NewLine);
             Console.Write($"Median: {median} ");
@@ -32,12 +31,12 @@ namespace ArrayMedian
                 Console.Write(array01[i] + " ");
             }
         }
-        static decimal Median(int[] array01, int[] array02, int n1, int n2)
+        static double Median(int[] array01, int[] array02, int n1, int n2)
         {
             int i = 0, j = 0, k = 0, y = 0;
             y = n1 + n2;
             int[] merg = new int[y];
-            decimal median;
+            double median;
 
             //Merging both arrays 
             //Merge by compoaring elements and add the smaller first
@@ -68,7 +67,7 @@ namespace ArrayMedian
                 merg[k] = array02[j];
                 j++; k++;
             }
-
+            Console.WriteLine(Environment.NewLine);
             Console.Write("Merged: ");
             Print(merg);
 
@@ -79,7 +78,7 @@ namespace ArrayMedian
             }
             else //10
             {
-                median = (merg[(y - 1) / 2] + merg[y / 2]) / 2;
+                median = (merg[(y - 1) / 2] + merg[y / 2]) / 2.0;
             }
             return median;
         }
