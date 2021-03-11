@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.809.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "018ArraySearchInsertPosition", "018ArraySearchInsertPosition\018ArraySearchInsertPosition.csproj", "{DBDAFE17-7839-467B-956A-00BDA7180D41}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBDAFE17-7839-467B-956A-00BDA7180D41}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{DBDAFE17-7839-467B-956A-00BDA7180D41}.Debug|anycpu.Build.0 = Debug|anycpu
+		{DBDAFE17-7839-467B-956A-00BDA7180D41}.Release|anycpu.ActiveCfg = Release|anycpu
+		{DBDAFE17-7839-467B-956A-00BDA7180D41}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D6E2901-2F78-476F-B990-7A991E2A6F80}
+	EndGlobalSection
+EndGlobal
