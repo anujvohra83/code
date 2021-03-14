@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.809.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "019Knapsack01Recursive", "019Knapsack01Recursive\019Knapsack01Recursive.csproj", "{47395D8A-84AE-4B6C-B1F3-FA45EBDC59DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47395D8A-84AE-4B6C-B1F3-FA45EBDC59DB}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{47395D8A-84AE-4B6C-B1F3-FA45EBDC59DB}.Debug|anycpu.Build.0 = Debug|anycpu
+		{47395D8A-84AE-4B6C-B1F3-FA45EBDC59DB}.Release|anycpu.ActiveCfg = Release|anycpu
+		{47395D8A-84AE-4B6C-B1F3-FA45EBDC59DB}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2834BC97-1978-45A6-8932-54248626840F}
+	EndGlobalSection
+EndGlobal
