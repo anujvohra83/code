@@ -23,14 +23,14 @@ namespace StaircaseProblem3Step
         public static void Main(string[] args)
         {
             int stairCount = 18;
-            int count = CountWays(stairCount);
+            long count = CountWays(stairCount);
             Console.WriteLine($"Number of possible ways that the child " +
                 $"can run up the {stairCount} stairs: {count} ");
            
         }
-        public static int CountWays(int n)
+        public static long CountWays(int n)
         {
-            int[] lookupTable = new int[n + 1];
+            long[] lookupTable = new long[n + 1];
 
             lookupTable[0] = 0;
             lookupTable[1] = 1;
